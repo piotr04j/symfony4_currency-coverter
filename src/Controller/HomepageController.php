@@ -25,7 +25,6 @@ class HomepageController extends AbstractController
 
     public function  getData(Request $request)
     {
-
         $response = new Response();
         $response->setStatusCode(200);
         $response->setContent($request);
