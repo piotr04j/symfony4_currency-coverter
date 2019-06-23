@@ -1,5 +1,21 @@
 {% extends "base.html.twig" %}
 
 {% block body %}
-    <p>{{ name }}</p>
+    <form id="currency-converter" action="/test">
+        <label for="currency-from">from</label>
+        <select name="currency-from" form="currency-converter" id="currency-from">
+            <option value="dollar">Dollar</option>
+            <option value="pound">Pounds</option>
+        </select>
+        <label for="currency-to">to</label>
+        <select name="currency-to" form="currency-converter"  id="currency-to">
+            <option value="dollar">Dollar</option>
+            <option value="pound">Pounds</option>
+        </select>
+        <label>Amount:
+            <input type="text" name="amount">
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
 {% endblock %}
