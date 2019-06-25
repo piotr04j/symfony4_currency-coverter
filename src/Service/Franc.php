@@ -1,10 +1,8 @@
 <?php
 
-
 namespace App\Service;
 
-
-class Dollar extends Money
+class Franc extends Money
 {
 
     public function __construct(int $amount, string $currency)
@@ -14,7 +12,7 @@ class Dollar extends Money
 
     public function times(int $multiplier): Money
     {
-        return Money::dollar($this->amount * $multiplier);
+        return Money::franc($this->amount * $multiplier);
     }
 
     public function currency(): string
