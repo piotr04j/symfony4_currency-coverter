@@ -2,7 +2,7 @@
 
 namespace App\Service;
 
-abstract class Money
+class Money
 {
     protected $amount;
     protected $currency;
@@ -13,26 +13,35 @@ abstract class Money
         $this->currency = $currency;
     }
 
-    abstract public function times(int $multiplier): Money;
+    public function times(int $multiplier, string $currency): Money
+    {
+        return new Money($this->amount * $multiplier, $currency);
+    }
 
     public function equals(Money $objectToEqual)
     {
         return $this->amount === $objectToEqual->amount
-            && get_class($this) === get_class($objectToEqual);
+            && $this->currency() === $objectToEqual->currency();
     }
 
-    public static function dollar(int $amount): Dollar
+    public static function dollar(int $amount): Money
     {
-        return new Dollar($amount, 'USD');
+        return new Money($amount, 'USD');
     }
 
-    public static function franc(int $amount ): Franc
+    public static function franc(int $amount ): Money
     {
-        return new Franc($amount, 'CHF');
+        return new Money($amount, 'CHF');
     }
 
-    protected function currency(): string
+    function currency(): string
     {
         return $this->currency;
+    }
+
+    public function plus(Money $addend): Money
+    {
+        return new Money($this->amount + $addend->amount, $this->currency);
+
     }
 }
