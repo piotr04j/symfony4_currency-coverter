@@ -6,6 +6,7 @@ namespace App\Tests\Unit\Money;
 
 use App\Service\Bank;
 use App\Service\Money;
+use App\Service\Sum;
 use PHPUnit\Framework\TestCase;
 
 class MoneyTest extends TestCase
@@ -55,11 +56,10 @@ class MoneyTest extends TestCase
      */
     public function testSimpleAddition()
     {
-        $five = Money::dollar(5);
-        $sum = $five->plus($five);
+        $sum = new Sum(5,7);
         $bank = new Bank();
-        $reduced = $bank->reduced($sum, 'USD');
+        $reduced = $bank->reduce($sum, 'USD');
 
-        self::assertEquals(Money::dollar(10),$reduced);
+        self::assertEquals(Money::dollar(12),$reduced);
     }
 }
