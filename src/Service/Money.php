@@ -4,7 +4,7 @@ namespace App\Service;
 
 class Money
 {
-    protected $amount;
+    public $amount;
     protected $currency;
 
     public function __construct(int $amount, string $currency)
