@@ -16,8 +16,9 @@ class Sum
         $this->addend = $addend;
     }
 
-    public function reduced(String $to): Money
+    public function reduce(String $to): Money
     {
+
         $this->amount = $this->augend + $this->addend;
         return new Money($this->amount, $to);
     }

@@ -21,7 +21,7 @@ class Bank
         }
         if($source instanceof Sum)
         {
-            return $source->reduced($to);
+            return $source->reduce($to);
         }
     }
 
