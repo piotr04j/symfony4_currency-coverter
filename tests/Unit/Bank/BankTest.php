@@ -31,5 +31,18 @@ class BankTest extends TestCase
         self::assertEquals(Money::dollar(1),$result->reduce($bank, 'USD'));
     }
 
+    public function testConvertToCurrency(){
+        $bank = new Bank();
+        $bank->addRate('CHF', 'USD', 2);
+
+        $franc = $bank->convertToCurrency(Money::franc(6), 'USD');
+        $dollar = $bank->convertToCurrency(Money::dollar(6), 'USD');
+        $missingRate = $bank->convertToCurrency(Money::franc(6), 'EUR');
+
+        self::assertEquals(Money::dollar(3)->amount, $franc->amount);
+        self::assertEquals(Money::dollar(6)->amount, $dollar->amount);
+        self::assertEquals(false, $missingRate->amount);
+    }
+
 
 }

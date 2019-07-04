@@ -4,6 +4,8 @@
 namespace App\Service;
 
 
+use phpDocumentor\Reflection\Types\Object_;
+
 class Bank
 {
     private $rates;
@@ -34,5 +36,18 @@ class Bank
     {
         if ($from === $to) return 1;
         return  $this->rates[$from][$to];
+    }
+
+    public function convertToCurrency(Money $from, string $to): Money {
+        if($from->currency() === $to) return new Money($from->amount, $to);
+        if  (
+                array_key_exists($from->currency(), $this->rates) &&
+                array_key_exists($to, $this->rates[$from->currency()])
+            ){
+            return new Money($from->amount / $this->rates[$from->currency()][$to], $to);
+        }
+
+        return new Money(false, $to);
+
     }
 }
