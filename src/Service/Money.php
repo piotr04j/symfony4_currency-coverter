@@ -39,9 +39,10 @@ class Money
         return $this->currency;
     }
 
-    public function plus(Money $addend): Sum
+    public function plus(Bank $bank, Money $addend): Money
     {
-        return new Sum($this->amount, $addend->amount);
+        $amount = $this->amount + $bank->convertToCurrency($addend,$this->currency())->amount;
+        return new Money($amount, $this->currency());
 
     }
 

@@ -66,16 +66,12 @@ class MoneyTest extends TestCase
     /*
      * @ttest
      */
-    public function  testMixedAddition()
+    public function testMixedAddition()
     {
-        //TODO add implementation change one currency to another
         $bank = new Bank();
         $bank->addRate('CHF', 'USD', 2);
         $fiveDollars = Money::dollar(5);
-        $fiveDollars->amount = $fiveDollars->amount / $bank->rate($fiveDollars->currency(),'USD');
-        $sixFrancs = Money::franc(6);
-        $sixFrancs->amount = $sixFrancs->amount / $bank->rate($sixFrancs->currency(),'USD');
-        $result = $bank->reduce($fiveDollars->plus($sixFrancs), 'USD');
-        self::assertEquals(Money::dollar(8), $result);
+        $result = $fiveDollars->plus($bank,Money::franc(22));
+        self::assertEquals(16, $result->amount);
     }
 }
