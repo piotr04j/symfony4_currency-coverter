@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70b28c7-5559-4094-8632-d1660e0a69d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Dollar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Bank.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Dollar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Franc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Money.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Money.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Franc/FrancTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,51 +26,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/HomepageController.php">
+        <entry file="file://$PROJECT_DIR$/src/Service/Money.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-              <folding>
-                <element signature="e#34#99#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="369">
+              <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
               <folding>
-                <element signature="e#43#66#0#PHP" expanded="true" />
+                <element signature="e#42#63#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/Dollar.php">
+        <entry file="file://$PROJECT_DIR$/src/Service/Bank.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Money</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,8 +75,14 @@
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/src/Controller/HomepageController.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Dollar/FrancTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Franc/FrancTest.php" />
         <option value="$PROJECT_DIR$/src/Service/Dollar.php" />
+        <option value="$PROJECT_DIR$/src/Service/Franc.php" />
+        <option value="$PROJECT_DIR$/src/Service/Bank.php" />
+        <option value="$PROJECT_DIR$/src/Service/Money.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" />
       </list>
     </option>
   </component>
@@ -236,6 +232,12 @@
             <path>
               <item name="currency-converter" type="b2602c69:ProjectViewProjectNode" />
               <item name="currency-converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currency-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currency-converter" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,7 +251,7 @@
               <item name="currency-converter" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Dollar" type="462c0819:PsiDirectoryNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,12 +263,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml.dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.16.0/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Unit/Franc" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -280,47 +287,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.DollarTest.testDollarMultiplication">
-    <configuration name="DollarTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Unit\Dollar\DollarTest" file="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.AllTest">
+    <configuration name="AllTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Unit\Dollar\DollarTest" directory="$PROJECT_DIR$/tests" file="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" />
       <method v="2" />
     </configuration>
-    <configuration name="DollarTest.testDollarMultiplication" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Unit\Dollar\DollarTest" file="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" method="testDollarMultiplication" scope="Method" />
+    <configuration name="MoneyTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Unit\Money\MoneyTest" file="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="DollarTest.testMultiplication" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Unit\Dollar\DollarTest" file="$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php" method="testMultiplication" scope="Method" />
+    <configuration name="MoneyTest.testEquality" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Unit\Money\MoneyTest" file="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" method="testEquality" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <package-manager value="npm" />
-      <envs />
+    <configuration name="MoneyTest.testMultiplication" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Unit\Money\MoneyTest" file="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" method="testMultiplication" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="watch" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="MoneyTest.testSimpleAddition" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Unit\Money\MoneyTest" file="$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php" method="testSimpleAddition" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.DollarTest.testDollarMultiplication" />
-        <item itemvalue="PHPUnit.DollarTest" />
-        <item itemvalue="PHPUnit.DollarTest.testMultiplication" />
-        <item itemvalue="npm.watch" />
-        <item itemvalue="npm.build" />
+        <item itemvalue="PHPUnit.AllTest" />
+        <item itemvalue="PHPUnit.MoneyTest.testSimpleAddition" />
+        <item itemvalue="PHPUnit.MoneyTest.testMultiplication" />
+        <item itemvalue="PHPUnit.MoneyTest.testEquality" />
+        <item itemvalue="PHPUnit.MoneyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -337,53 +331,59 @@
       <workItem from="1561020748067" duration="8601000" />
       <workItem from="1561098378618" duration="2465000" />
       <workItem from="1561195704458" duration="1874000" />
+      <workItem from="1561290680336" duration="5212000" />
+      <workItem from="1561307994902" duration="940000" />
+      <workItem from="1561480823983" duration="6001000" />
+      <workItem from="1561486863652" duration="217000" />
+      <workItem from="1561752812989" duration="30000" />
+      <workItem from="1561785129988" duration="7130000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 53m 33s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MoneyTest_testMultiplication - 2019.06.29 at 08h 20m 59s.xml">
+      <configuration name="MoneyTest.testMultiplication" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 53m 39s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 08h 23m 31s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 54m 01s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 08h 23m 51s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 54m 13s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 08h 37m 38s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 55m 30s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 08h 38m 25s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 55m 54s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 08h 38m 53s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest - 2019.06.22 at 11h 56m 02s.xml">
-      <configuration name="DollarTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 08h 41m 44s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest - 2019.06.22 at 11h 57m 38s.xml">
-      <configuration name="DollarTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MoneyTest_testSimpleAddition - 2019.06.29 at 08h 43m 29s.xml">
+      <configuration name="MoneyTest.testSimpleAddition" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 58m 15s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MoneyTest_testSimpleAddition - 2019.06.29 at 08h 43m 40s.xml">
+      <configuration name="MoneyTest.testSimpleAddition" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DollarTest_testDollarMultiplication - 2019.06.22 at 11h 58m 35s.xml">
-      <configuration name="DollarTest.testDollarMultiplication" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2019.06.29 at 09h 16m 52s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12940000" />
+    <option name="totallyTimeSpent" value="32822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34915254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +391,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33446327" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -495,29 +495,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Dollar.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/HomepageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="580">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Dollar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Franc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/Dollar/DollarTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="280">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Franc/FrancTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Money.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Money/MoneyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
           <folding>
-            <element signature="e#43#66#0#PHP" expanded="true" />
+            <element signature="e#42#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
